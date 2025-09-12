@@ -53,8 +53,10 @@ dependencies {
 
     implementation("io.coil-kt:coil-compose:2.4.0")
     implementation("io.coil-kt:coil-gif:2.4.0")
-
+    // Tipografía con compose
     implementation("androidx.compose.ui:ui-text-google-fonts:1.9.0")
+    //Navegación con compose
+    implementation ("androidx.navigation:navigation-compose:2.7.0")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
