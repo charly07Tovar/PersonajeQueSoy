@@ -115,7 +115,7 @@ fun LoadingScreen(onFinished: (month: Int) -> Unit, month: Int) {
             delay(200) // Pausa entre pasos
         }
 
-        delay(500) // Pausa final antes de completar
+        delay(300) // Pausa final antes de completar
         onFinished(month)
     }
 

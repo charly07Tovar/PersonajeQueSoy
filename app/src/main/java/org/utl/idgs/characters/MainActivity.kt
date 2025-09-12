@@ -40,7 +40,7 @@ class MainActivity : ComponentActivity() {
                         arguments = listOf(navArgument("month") { type = NavType.IntType })
                     ) { backStackEntry ->
                         val month = backStackEntry.arguments?.getInt("month") ?: 1
-                        ResultScreen(month)
+                        ResultScreen(month = month, navController = navController)
                     }
                 }
             }
